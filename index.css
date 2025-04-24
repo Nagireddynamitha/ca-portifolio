@@ -1,0 +1,99 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.header {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.portfolio-logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-container a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar-container a:hover {
+  background-color: #575757;
+}
+
+/* Home Section */
+.home {
+  text-align: center;
+  padding: 50px;
+}
+
+.home h1 {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* About Section */
+.about {
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 30px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Skills Section */
+.skills {
+  padding: 40px;
+}
+
+.skills img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
